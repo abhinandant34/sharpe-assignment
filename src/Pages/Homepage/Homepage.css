@@ -1,0 +1,52 @@
+.homepage
+{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.homepage-header
+{
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.home-display
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.homepage-subheader
+{
+    font-size: 3.5rem;
+    width: 45%;
+}
+
+.homepage-btn-section
+{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5vw;
+}
+.homepage-btn
+{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 10px;
+    margin: 5vh auto;
+    background-color:  #669ac7;
+    border: 1px white solid;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+.homepage-btn:hover{
+    background-color: rgba(255, 255, 255, 0.25);
+    color: black;
+}

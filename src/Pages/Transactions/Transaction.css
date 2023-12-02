@@ -1,0 +1,27 @@
+.transaction-page{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.transaction-form
+{
+    margin: auto;
+    padding:10px;
+    width: 50vw;
+    height: 40vh;
+    background-color: rgba(255, 255, 255, 0.25);
+    display: flex;
+    gap: 3vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.transaction-input
+{
+    padding: 3px;
+    width: 40vw;
+    border: none;
+}
